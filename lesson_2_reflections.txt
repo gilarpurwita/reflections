@@ -2,3 +2,6 @@ What happens when you initialize a repository? Why do you need to do it?
 Akan ada direktori baru dengan nama .git.
 Diperlukan agar bisa melakukan tracking terhadap projek kita.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area adalah daftar files dari working directory yang akan di-commit ke repository.
+Kelebihannya, kita bisa melakukan commit untuk beberapa files yang diinginkan saja, tidak perlu semua files.
