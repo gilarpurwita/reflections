@@ -1,0 +1,24 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Membantu mencari sumber penyebab bug, tapi jika project sudah besar dan kompleks akan sangat membosankan dan menyulitkan mencari perbedaan antara dua versi secara manual.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Bisa dengan mudah kembali ke commit history yang ada menggunakan command git checkout commit_id
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Google docs tidak bisa offline, tidak bisa menggunakan text editor lain.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Karena yang disimpan lewat git commit adalah repository-nya, bukan file nya.
+
+How can you use the commands git log and git diff to view the history of files?
+1. See a history of commits by using git log command.
+2. Find a commit you want to check, and look at that command id and previous command id.
+3. Press q to quit from log.
+4. Type git diff command_id previous_command_id
+
+How might using version control make you more confident to make changes that could break something?
+Karena, meskipun perubahan yg kita lakukan terhadap source code mengakibatkan kerusakan terhadap aplikasi, kita bisa mengembalikan source code menggunakan fungsi checkout, sehingga source code kita kembali seperti semula.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Untuk membuat projek sederhana.
+
